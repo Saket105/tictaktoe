@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: tictactoe
+    # Postgres
+  datasource:
+    url: jdbc:postgresql://localhost:5432:tictactoe
+    username: postgres
+    password: 1478
+    driver-class-name: org.postgresql.Driver
+
+  #jpa/hibernate
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database: postgresql
+    hibernate:
+        ddl-auto: update
+    show-sql: true
+
+Server:
+  port: 8080
+
+springdoc:
+  swagger-ui:
+    enabled: true
+
