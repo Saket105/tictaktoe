@@ -3,10 +3,9 @@ spring:
     name: tictactoe
     # Postgres
   datasource:
-    url: jdbc:postgresql://localhost:5432:tictactoe
+    url: jdbc:postgresql://localhost:5432/tictactoe
     username: postgres
     password: 1478
-    driver-class-name: org.postgresql.Driver
 
   #jpa/hibernate
   jpa:
